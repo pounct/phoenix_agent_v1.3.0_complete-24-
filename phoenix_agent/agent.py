@@ -26,9 +26,9 @@ from phoenix_agent.v3.runtime.router import Router, ProviderRegistry
 from phoenix_agent.v3.runtime.execution_loop import ExecutionLoop, LoopConfig
 from phoenix_agent.v3.runtime.metrics import create_collector, MetricsCollector
 
-from phoenix_agent.v3.providers.planning_provider import PlanningProvider, create_plan
-from phoenix_agent.v3.providers.tool_provider import ToolProvider, ToolRegistry, execute_tool
-from phoenix_agent.v3.providers.llm_provider import LLMProvider, ask_llm
+from phoenix_agent.providers.tool_provider import ToolProvider, ToolRegistry, execute_tool
+from phoenix_agent.providers.llm_provider import LLMProvider, ask_llm
+from phoenix_agent.providers.planning_provider import PlanningProvider, create_plan
 
 
 # ==========================================
